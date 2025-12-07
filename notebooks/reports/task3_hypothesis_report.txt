@@ -1,0 +1,14 @@
+TASK 3: Hypothesis Testing Report
+Total policies analyzed: 1000098
+Overall claim frequency: 0.0028
+
+Province test: Reject H0 (p=5.926e-19). Example high-risk provinces (by claim frequency):
+  - Gauteng: claim_freq=0.003 (n=393865)
+  - KwaZulu-Natal: claim_freq=0.003 (n=169781)
+  - Limpopo: claim_freq=0.003 (n=24836)
+  - North West: claim_freq=0.002 (n=143287)
+  - Mpumalanga: claim_freq=0.002 (n=52718)
+Zip code frequency test: Reject H0 (p=4.593e-12). Top zip codes show differing claim rates — consider postcode-based segmentation for top postal areas.
+Zip code margin test: Reject H0 (p=0). Some postal codes show different profitability — consider underwriting/premium adjustments.
+Gender frequency test p-value: 0.8405
+  - Interpretation: Fail to reject H0. No strong evidence for frequency difference by gender.
